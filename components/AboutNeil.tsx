@@ -1,3 +1,5 @@
+import Image from 'next/image';
+
 export default function AboutNeil() {
   return (
     <section style={{
@@ -28,24 +30,23 @@ export default function AboutNeil() {
           alignItems: 'flex-start',
           flexWrap: 'wrap',
         }}>
-          {/* Photo placeholder */}
+          {/* Photo */}
           <div style={{
             width: '160px',
             height: '160px',
             borderRadius: '8px',
-            background: 'rgba(184,115,51,0.08)',
+            overflow: 'hidden',
             border: '1px solid rgba(184,115,51,0.2)',
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
             flexShrink: 0,
+            position: 'relative',
           }}>
-            <span style={{
-              fontFamily: 'var(--font-raleway)',
-              fontWeight: 800,
-              fontSize: '2rem',
-              color: 'rgba(184,115,51,0.4)',
-            }}>NC</span>
+            <Image
+              src="/neil.jpg"
+              alt="Neil Charles"
+              fill
+              style={{ objectFit: 'cover', objectPosition: 'center top' }}
+              sizes="160px"
+            />
           </div>
 
           {/* Text */}
