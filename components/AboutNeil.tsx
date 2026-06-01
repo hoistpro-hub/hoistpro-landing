@@ -44,7 +44,7 @@ export default function AboutNeil() {
               src="/neil.jpg"
               alt="Neil Charles"
               fill
-              style={{ objectFit: 'cover', objectPosition: '50% 25%' }}
+              style={{ objectFit: 'cover', objectPosition: '50% 70%' }}
               sizes="160px"
             />
           </div>
