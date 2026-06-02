@@ -2,7 +2,9 @@ import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import Problem from '@/components/Problem';
 import HowItWorks from '@/components/HowItWorks';
+import Stats from '@/components/Stats';
 import TwoStageSystem from '@/components/TwoStageSystem';
+import VsCalendly from '@/components/VsCalendly';
 import WhatsAppMockup from '@/components/WhatsAppMockup';
 import UBSVideos from '@/components/UBSVideos';
 import AboutNeil from '@/components/AboutNeil';
@@ -16,7 +18,9 @@ export default function Home() {
       <Hero />
       <Problem />
       <HowItWorks />
+      <Stats />
       <TwoStageSystem />
+      <VsCalendly />
       <WhatsAppMockup />
       <UBSVideos />
       <AboutNeil />
