@@ -57,7 +57,7 @@ export default function VsCalendly() {
             </p>
             {['Asks intake questions', 'Fills your calendar', 'No scoring or segmentation', 'No education before the call', 'Everyone gets through'].map((item) => (
               <div key={item} style={{ display: 'flex', gap: '12px', marginBottom: '14px', alignItems: 'flex-start' }}>
-                <span style={{ color: 'rgba(239,239,239,0.2)', fontSize: '0.85rem', marginTop: '2px' }}>—</span>
+                <span style={{ color: 'rgba(239,239,239,0.2)', fontSize: '0.85rem', marginTop: '2px' }}>×</span>
                 <p style={{ fontFamily: 'var(--font-space)', fontSize: '0.9rem', color: 'rgba(239,239,239,0.35)', lineHeight: 1.5 }}>{item}</p>
               </div>
             ))}

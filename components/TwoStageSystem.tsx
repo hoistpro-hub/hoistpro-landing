@@ -52,7 +52,7 @@ export default function TwoStageSystem() {
               marginBottom: '16px',
               opacity: 0.8,
             }}>
-              Stage 1 — Implicit
+              Stage 1: Implicit
             </p>
             <h3 style={{
               fontFamily: 'var(--font-raleway)',
@@ -70,7 +70,7 @@ export default function TwoStageSystem() {
               color: 'var(--cream-dim)',
               lineHeight: 1.75,
             }}>
-              Prospects are scored using firmographic data and intent signals before anyone is contacted. Only T1 and T2-tier accounts — the best-fit prospects — enter the outreach sequence. T3s are excluded before the first message is sent.
+              Prospects are scored using firmographic data and intent signals before anyone is contacted. Only T1 and T2-tier accounts (the best-fit prospects) enter the outreach sequence. T3s are excluded before the first message is sent.
             </p>
           </div>
 
@@ -90,7 +90,7 @@ export default function TwoStageSystem() {
               marginBottom: '16px',
               opacity: 0.8,
             }}>
-              Stage 2 — Explicit
+              Stage 2: Explicit
             </p>
             <h3 style={{
               fontFamily: 'var(--font-raleway)',
@@ -108,7 +108,7 @@ export default function TwoStageSystem() {
               color: 'var(--cream-dim)',
               lineHeight: 1.75,
             }}>
-              Interested prospects complete a qualification scorecard — scored 0 to 10 on budget, authority, need, and timing. The result determines what happens next automatically.
+              Interested prospects complete a qualification scorecard, scored 0 to 10 on budget, authority, need, and timing. The result determines what happens next automatically.
             </p>
 
             <div style={{ marginTop: '28px', display: 'flex', flexDirection: 'column', gap: '10px' }}>

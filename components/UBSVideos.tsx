@@ -25,7 +25,7 @@ export default function UBSVideos() {
             marginBottom: '20px',
             opacity: 0.85,
           }}>
-            UBS — Unique Branded Strategy
+            UBS: Unique Branded Strategy
           </p>
           <h2 style={{
             fontFamily: 'var(--font-raleway)',
@@ -53,7 +53,7 @@ export default function UBSVideos() {
             color: 'var(--cream-dim)',
             lineHeight: 1.75,
           }}>
-            By the time they show up, they already understand what you do, why it matters for them, and what to expect. The call feels like a second meeting — not a first pitch.
+            By the time they show up, they already understand what you do, why it matters for them, and what to expect. The call feels like a second meeting, not a first pitch.
           </p>
         </div>
 

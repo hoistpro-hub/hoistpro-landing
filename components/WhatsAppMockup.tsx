@@ -37,7 +37,7 @@ export default function WhatsAppMockup() {
           maxWidth: '520px',
           lineHeight: 1.65,
         }}>
-          Every time a prospect clears the scorecard, you get a WhatsApp notification with everything you need — before you even pick up the phone.
+          Every time a prospect clears the scorecard, you get a WhatsApp notification with everything you need. Before you even pick up the phone.
         </p>
 
         <div style={{
@@ -98,7 +98,7 @@ export default function WhatsAppMockup() {
                   marginBottom: '12px',
                   letterSpacing: '0.04em',
                 }}>
-                  ✅ New Qualified Lead — Score 8/10
+                  ✅ New Qualified Lead. Score 8/10
                 </p>
                 {[
                   ['Name', 'Emily Johnson'],

@@ -85,7 +85,7 @@ export default function AboutNeil() {
               color: 'var(--cream-dim)',
               lineHeight: 1.75,
             }}>
-              It wasn&apos;t a selling problem. It was a qualification problem. EQS was built to close that gap — so the only people who reach the calendar are the ones already close to a decision.
+              It wasn&apos;t a selling problem. It was a qualification problem. EQS was built to close that gap, so the only people who reach the calendar are the ones already close to a decision.
             </p>
           </div>
         </div>

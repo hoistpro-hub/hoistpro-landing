@@ -2,7 +2,7 @@ const steps = [
   {
     number: '01',
     title: 'Qualify',
-    body: 'Every prospect goes through the EQS scorecard — scored 0 to 10 on budget, authority, need, and timing before anyone sees your calendar.',
+    body: 'Every prospect goes through the EQS scorecard, scored 0 to 10 on budget, authority, need, and timing before anyone sees your calendar.',
   },
   {
     number: '02',
