@@ -85,6 +85,38 @@ export default function Problem() {
             </div>
           ))}
         </div>
+
+        <div style={{
+          marginTop: '56px',
+          textAlign: 'center',
+        }}>
+          <p style={{
+            fontFamily: 'var(--font-space)',
+            fontSize: '1rem',
+            color: 'var(--cream-dim)',
+            marginBottom: '20px',
+          }}>
+            Want the number for your calendar? It takes 10 seconds.
+          </p>
+          <a
+            href="https://calendar-waste-calculator.vercel.app"
+            target="_blank"
+            rel="noopener noreferrer"
+            style={{
+              display: 'inline-block',
+              padding: '14px 28px',
+              border: '1px solid var(--copper)',
+              color: 'var(--copper)',
+              fontFamily: 'var(--font-space)',
+              fontWeight: 600,
+              fontSize: '0.9rem',
+              textDecoration: 'none',
+              borderRadius: '4px',
+            }}
+          >
+            Run the Calendar Waste Calculator
+          </a>
+        </div>
       </div>
     </section>
   );

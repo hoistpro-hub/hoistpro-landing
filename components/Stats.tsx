@@ -1,6 +1,6 @@
 export default function Stats() {
   const stats = [
-    { value: '10x', label: 'Growth achieved in under 10 months for partner consultants' },
+    { value: '2x', label: 'Qualified twice. Once before outreach, again before anyone books' },
     { value: '0', label: 'Tyre-kickers. No more wasted calls with unqualified prospects' },
     { value: '100%', label: 'Qualified leads. Every conversation is with a pre-qualified buyer' },
   ];

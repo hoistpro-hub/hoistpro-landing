@@ -36,24 +36,41 @@ export default function Nav() {
       }}>
         HOIST<span style={{ color: 'var(--copper)' }}>PRO</span>
       </span>
-      <a
-        href="https://calendly.com/hoistpro-co/hoistpro-co"
-        target="_blank"
-        rel="noopener noreferrer"
-        style={{
-          padding: '10px 22px',
-          background: 'var(--copper)',
-          color: '#080808',
-          fontFamily: 'var(--font-space)',
-          fontWeight: 600,
-          fontSize: '0.85rem',
-          letterSpacing: '0.03em',
-          textDecoration: 'none',
-          borderRadius: '4px',
-        }}
-      >
-        Book a Call
-      </a>
+      <div style={{ display: 'flex', alignItems: 'center', gap: '24px' }}>
+        <a
+          href="https://calendar-waste-calculator.vercel.app"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            fontFamily: 'var(--font-space)',
+            fontWeight: 600,
+            fontSize: '0.85rem',
+            letterSpacing: '0.03em',
+            color: 'var(--cream-dim)',
+            textDecoration: 'none',
+          }}
+        >
+          Calculator
+        </a>
+        <a
+          href="https://calendly.com/hoistpro-co/hoistpro-co"
+          target="_blank"
+          rel="noopener noreferrer"
+          style={{
+            padding: '10px 22px',
+            background: 'var(--copper)',
+            color: '#080808',
+            fontFamily: 'var(--font-space)',
+            fontWeight: 600,
+            fontSize: '0.85rem',
+            letterSpacing: '0.03em',
+            textDecoration: 'none',
+            borderRadius: '4px',
+          }}
+        >
+          Book a Call
+        </a>
+      </div>
     </nav>
   );
 }
