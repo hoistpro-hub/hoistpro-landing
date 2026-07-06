@@ -81,6 +81,31 @@ export default function Testimonial() {
             </p>
           </div>
         </div>
+
+        <div style={{
+          maxWidth: '640px',
+          margin: '64px auto 0',
+          paddingTop: '48px',
+          borderTop: '1px solid rgba(184,115,51,0.12)',
+        }}>
+          <p style={{
+            fontFamily: 'var(--font-raleway)',
+            fontWeight: 700,
+            fontSize: '1.15rem',
+            color: 'var(--cream)',
+            lineHeight: 1.6,
+            marginBottom: '20px',
+          }}>
+            &ldquo;Their strategies have been so effective that I&apos;ve had to outsource some of my workload and put some on hold to keep up with the demand.&rdquo;
+          </p>
+          <p style={{
+            fontFamily: 'var(--font-space)',
+            fontSize: '0.9rem',
+            color: 'var(--cream-dim)',
+          }}>
+            Ryan Pothin, The Banquet Bureau
+          </p>
+        </div>
       </div>
     </section>
   );
